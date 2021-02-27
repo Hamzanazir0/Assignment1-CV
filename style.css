@@ -1,0 +1,29 @@
+.page{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid;
+    height:800px;
+    display:flex;
+}
+
+.topbar{
+    flex-direction:row;
+    position:relative;
+    top:3%;
+    left:5%;
+    width: 100%;
+    z-index: 2;
+}
+
+.left{
+    flex-direction:column;
+    position:relative;
+    z-index:1;
+    width: 40%;
+    background-color: rgb(221, 221, 221);
+}
+
+.right{
+    flex-direction:column;
+    width:60%
+}
