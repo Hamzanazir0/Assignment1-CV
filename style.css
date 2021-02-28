@@ -179,7 +179,7 @@ h2.s {
 
 .skills hr{
     border:blue 2px solid;
-    margin-top:10%;
+    margin-top:6%;
 }
 
 .bottombar{
@@ -220,5 +220,31 @@ h2.s {
     color:blue ;
   }
 
+  .container {
+    width: 83%;
+    background-color: #ddd;
+    margin-top: -2%;
+    margin-left: 2%;
+  }
+  
+  .skulls {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
 
+  .graphics {
+      width: 90%; 
+      background-color: #2196F3;
+    }
+
+    .web {
+        width: 80%; 
+        background-color: tomato;
+      }
+
+      .thanks{
+          margin-top:4%;
+      }
   
