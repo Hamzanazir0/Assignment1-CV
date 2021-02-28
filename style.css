@@ -1,29 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .page{
     margin-left: 20%;
     margin-right: 20%;
-    border: 1px solid;
+    border: 2px solid;
     height:800px;
-    display:flex;
+    font-family:Barlow;
 }
 
 .topbar{
-    flex-direction:row;
-    position:relative;
-    top:3%;
-    left:5%;
+    position: relative;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 25px;
+}
+
+.barea{
+    display:flex;
+    flex-direction: row;
     width: 100%;
-    z-index: 2;
+    height: 100%;
 }
 
 .left{
-    flex-direction:column;
-    position:relative;
-    z-index:1;
     width: 40%;
-    background-color: rgb(221, 221, 221);
+}
+
+.bgcolor{
+    background-color: rgba(0, 132, 255, 0.075);
+    width: 50%;
+    height: 95%;
+    margin-top:-9%;
+    padding-top:20%;
+}
+
+img{
+    margin-left: 39%;
 }
 
 .right{
-    flex-direction:column;
-    width:60%
+    width:60%;
+    padding-right:6%;
+}
+
+.top{
+    margin-top: 15%;
+}
+
+h1{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bolder;
+    font-size:5em;
+}
+
+h2{
+    margin: 0%;
+    padding: 0%;
+    font-size:2em;
+}
+
+h3{
+    margin: 0%;
+    margin-top: 2%;
+    padding: 0%;
+    font-weight: medium;
+    font-size:1em;
+}
+
+.pinfo{
+    margin-top: 5%;
+}
+
+.pinfo p{
+    margin: 0;
+    margin-top: 2.5%;
+    padding: 0;
+}
+
+.pinfo hr{
+    border:blue 3px solid;
+    margin-top:10%;
+}
+
+.fas{
+    color:blue;
+}
+
+.about p{
+    margin-top:5%;
+}
+
+.blueline{
+    display: flex;
+    height: 60%;
+    position: relative;
+    left: 49%;
+    top: -1.5%;
+}
+
+.blueline hr{
+    border: blue 2px solid;
 }
