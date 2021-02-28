@@ -137,11 +137,18 @@ h3{
     left: -7%;
 }
 
-img.we{
-    position:relative;
-    top:-120%
-}
+div.connecters:nth-child(4) {
+    margin-top: -26%;
+  }
 
+h2.e {
+    margin-top: 132%;
+  }
+
+h2.s {
+    margin-top: 97%;
+  }
+  
 .work{
     margin-top:10%;
 }
